@@ -1,0 +1,70 @@
+<!-- <div class="row">
+    <div class="card col p-3 m-3">
+        <div class="ui statistic">
+            <div class="label">
+                <h3>Confirmed</h3>
+            </div>
+            <div class="value">
+                {{totalConfirmed}}
+            </div>
+        </div>
+    </div>
+    <div class="card col p-3 m-3">
+        <div class="ui statistic">
+            <div class="label">
+                <h3>Recovered</h3>
+            </div>
+            <div class="value">
+                {{totalRecovered}}
+            </div>
+        </div>
+    </div>
+    <div class="card col p-3 m-3">
+        <div class="ui statistic">
+            <div class="label">
+                <h3>Deaths</h3>
+            </div>
+            <div class="value">
+                {{totalDeaths}}
+            </div>
+        </div>
+    </div>
+    <div class="card col p-3 m-3">
+        <div class="ui statistic">
+            <div class="label">
+                <h3>Active</h3>
+            </div>
+            <div class="value">
+                {{totalActive}}
+            </div>
+        </div>
+    </div>
+
+</div> -->
+<div class="row justify-content-center">
+    <div class="card card-infected col-xs-12 p-3 m-3" style="color: white; background-color: black;">
+        <div class="card-body">
+        <h4 class="card-title">Infected</h4>
+        <p class="card-text" style="color: orange; font-size: larger;">{{totalConfirmed}}</p>
+        <p>Number of active cases of covid-19</p>
+        <small class="text-grey">{{lastUpdate}}</small>
+        </div>
+    </div>
+
+    <div class="card card-recovered col-xs-12 p-3 m-3" style="color: white; background-color: black;">
+        <div class="card-body">
+        <h4 class="card-title" >Recovered</h4>
+        <p class="card-text" style="color: rgb(48, 138, 7); font-size: larger;">{{totalRecovered}}</p>
+        <p>Number of recovered cases of covid-19</p>
+        <small class="text-grey">{{lastUpdate}}</small>
+        </div>
+    </div>
+
+    <div class="card card-deaths col-xs-12 p-3 m-3" style="color: white; background-color: black;">
+        <div class="card-body">
+        <h4 class="card-title" >Deaths</h4>
+        <p class="card-text" style="color: red; font-size: larger;">{{totalDeaths}}</p>
+        <p>Number of deaths due to covid-19</p>
+        <small class="text-grey">{{lastUpdate}}</small>
+    </div>
+</div>
