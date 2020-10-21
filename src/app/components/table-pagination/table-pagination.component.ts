@@ -61,7 +61,7 @@ export class TablePaginationComponent implements OnInit, AfterViewInit {
       }
     )
     
-    for (let i = 1; i <= 330; i++) {
+    for (let i = 1; i <= 300; i++) {
       this.elements.push({id: i.toString(), first: 'User ' + i, last: 'Name ' + i, handle: 'Handle ' + i});
     }
 
